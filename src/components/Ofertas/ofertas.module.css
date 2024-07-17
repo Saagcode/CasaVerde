@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 250px auto 0 0;
+  width: 100%;
+}
+
+.gridOfertas {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+  width: 380px;
+  margin: 1rem;
+  height: 200px;
+  overflow: hidden;
+  box-shadow: 3px 3px 15px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+.containerImg1 {
+  background-image: url("../../assets/images/Ajuga_reptans.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerImg2 {
+  background-image: url("../../assets/images/Cordyline_fruticosa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerImg3 {
+  background-image: url("../../assets/images/Crassula_ovata.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerImg4 {
+  background-image: url("../../assets/images/Cyperus_rotundus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerImg5 {
+  background-image: url("../../assets/images/Delairea_odorata.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerImg6 {
+  background-image: url("../../assets/images/Datura_metel.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textContent {
+  margin: 0 10px;
+  width: 70%;
+}
+
+.textContent h1 {
+  font-family: "Elsie Swash Caps, sans-serif";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.textContent h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "MontSerrat, sans-serif";
+}
+
+.buttonBuy {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0;
+  font-family: "MontSerrat, sans-serif";
+  border: none;
+  background-color: transparent;
+  color: #ffcb47;
+}

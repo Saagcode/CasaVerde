@@ -1,0 +1,31 @@
+.containerPlant2 {
+  background-image: url("../../assets/images/plant2.png");
+  background-position: left 15%;
+  background-size: cover;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  width: 1450px;
+  padding: 0;
+  height: 300px;
+}
+
+.gridPlant2 {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  text-align: left;
+  height: 300px;
+  margin: 0px 20px;
+  width: 100%;
+  font-family: "MontSerrat, sans-serif";
+}
+
+.gridPlant2 li {
+  display: flex;
+  align-items: center;
+}
+
+.gridPlant2 li h3 {
+  font-family: "MontSerrat, sans-serif";
+}
